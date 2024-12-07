@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #006400;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-size: 1.8em;
+    color: #006400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #004d00;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+}
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #28a745;  
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1em;
+    border: 2px solid transparent;  
+    border-radius: 50px;  
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease-in-out;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+
+.btn:hover {
+    background-color: #218838;  
+    border-color: #218838;  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);  
+    transform: translateY(-3px); 
+}
+
+.btn:active {
+    background-color: #1e7e34;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);  
+    transform: translateY(1px);  
+}
+
+.btn:focus {
+    outline: none;  
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.5); 
+}
+}
+.location {
+    background-color: #f9f9f9;  /* Light gray background */
+    padding: 30px;
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for depth */
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;  /* Dark text color for readability */
+}
+
+.location h3 {
+    font-size: 1.8em;
+    color: #005a3c;  /* Dark green color for the heading */
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.location p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.location p:first-child {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.location p a {
+    color: #005a3c;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.location p:hover {
+    text-decoration:wavy;
+    color: #007b52;  /* Slightly darker green on hover */
+}
+
+@media (max-width: 768px) {
+    .location {
+        padding: 20px;
+        max-width: 90%;  /* Allow more space on smaller screens */
+    }
+}
